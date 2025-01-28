@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><web/Iris></title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Deducción de costos
+        </h1>
+        <form id="calculadora">
+            <div class="form-group">
+                <label for="precioHarina">Precio por kg de harina (Bs):</label>
+                <input type="number" id="precioHarina" required>
+                <label for="cantidadHarina">Cantidad de harina (g):</label>
+                <input type="number" id="cantidadHarina" required>
+            </div>
+            <div class="form-group">
+                <label for="precioAzucar">Precio por kg de azúcar (Bs):</label>
+                <input type="number" id="precioAzucar" required>
+                <label for="cantidadAzucar">Cantidad de azúcar (g):</label>
+                <input type="number" id="cantidadAzucar" required>
+            </div>
+            <div class="form-group">
+                <label for="precioMantequilla">Precio por kg de mantequilla (Bs):</label>
+                <input type="number" id="precioMantequilla" required>
+                <label for="cantidadMantequilla">Cantidad de mantequilla (g):</label>
+                <input type="number" id="cantidadMantequilla" required>
+            </div>
+            <div class="form-group">
+                <label for="precioHuevo">Precio por unidad de huevo (Bs):</label>
+                <input type="number" id="precioHuevo" required>
+                <label for="cantidadHuevo">Cantidad de huevos (unidades):</label>
+                <input type="number" id="cantidadHuevo" required>
+            </div>
+            <div class="form-group">
+                <label for="precioVainilla">Precio por litro de vainilla (Bs):</label>
+                <input type="number" id="precioVainilla" required>
+                <label for="cantidadVainilla">Cantidad de vainilla (ml):</label>
+                <input type="number" id="cantidadVainilla" required>
+            </div>
+            <div class="form-group">
+                <label for="precioAceite">Precio por litro de aceite (Bs):</label>
+                <input type="number" id="precioAceite" required>
+                <label for="cantidadAceite">Cantidad de aceite (ml):</label>
+                <input type="number" id="cantidadAceite" required>
+            </div>
+            <div class="form-group">
+                <label for="precioPolvoDeHornear">Precio por kg de polvo de hornear (Bs):</label>
+                <input type="number" id="precioPolvoDeHornear" required>
+                <label for="cantidadPolvoDeHornear">Cantidad de polvo de hornear (g):</label>
+                <input type="number" id="cantidadPolvoDeHornear" required>
+            </div>
+            <div class="form-group">
+                <label for="precioLeche">Precio por litro de leche (Bs):</label>
+                <input type="number" id="precioLeche" required>
+                <label for="cantidadLeche">Cantidad de leche (ml):</label>
+                <input type="number" id="cantidadLeche" required>
+            </div>
+            <button type="button" onclick="calcularCosto()">Calcular Costo</button>
+        </form>
+        <h2 id="resultado">Costo Total: </h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
